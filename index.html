@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/main.css"/>
+    <script src="/js/main.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <ul id="menu">
+        <li>HOME</li>
+        <li>PAGES</li>
+        <li>DOCS</li>
+      </ul>
+      <div id="title_cover">
+        <p id="title">VENDOR</p>
+      </div>
+    </header>
+    <section id="body">
+      <div id="top">
+        <p>Your Cart</p>
+      </div>
+
+      <section id="cart">
+        <div id="cart_top">
+          <div id="empty_img"></div>
+          <ul id="cart_top_detail">
+            <li>PRODUCT</li>
+            <li>PRICE</li>
+            <li>QUANTITY</li>
+            <li>TOTAL</li>
+          </ul>
+          <div id="empty_button"></div>
+        </div>
+        <div id="cart_list">
+          <ul id="cart_list_detail">
+            <li>
+              <img src="./img/aaa.png" />
+              <div class="cart_list_text">
+                <p class="list_product">AAA</p>
+                <p class="list_price">$12</p>
+                <div class="plus_minus">
+                  <button class="plus">+</button>
+                  <div class="cart_num"></div>
+                  <button class="minus">-</button>
+                </div>
+                <p class="list_total">$12</p>
+              </div>
+              <button>X</button>
+            </li>
+
+            <li>
+              <img src="./img/bbb.png" />
+              <div class="cart_list_text">
+                <p class="list_product">BBB</p>
+                <p class="list_price">$13</p>
+                <div class="plus_minus">
+                  <button class="plus">+</button>
+                  <div class="cart_num"></div>
+                  <button class="minus">-</button>
+                </div>
+                <p class="list_total">$13</p>
+              </div>
+              <button>X</button>
+            </li>
+
+            <li>
+              <img src="./img/ccc.png" />
+              <div class="cart_list_text">
+                <p class="list_product">CCC</p>
+                <p class="list_price">$15</p>
+                <div class="plus_minus">
+                  <button class="plus">+</button>
+                  <div class="cart_num"></div>
+                  <button class="minus">-</button>
+                </div>
+                <p class="list_total">$15</p>
+              </div>
+
+              <button>X</button>
+            </li>
+          </ul>
+        </div>
+        <button id="all_delete">All Delete</button>
+      </section>
+      <section id="cart_serve_all">
+        <div id="cart_serve">
+          <div id="cart_serve_top">
+            <p>Order Summary</p>
+          </div>
+          <div id="cart_serve_list">
+            <ul id="list_detail">
+              <li>
+                <p>Sub Total</p>
+                <p id="sub_total"></p>
+              </li>
+              <li>
+                <p>Discount</p>
+                <p id="discount">- 0</p>
+              </li>
+              <li>
+                <p>Delivery Price</p>
+                <p id="delivery_price">$3</p>
+              </li>
+            </ul>
+          </div>
+          <div id="cart_serve_total">
+            <p>Total</p>
+            <p id="total_price"></p>
+          </div>
+        </div>
+        <button id="checkout">Check Out</button>
+      </section>
+    </section>
+  </body>
+</html>

@@ -1,14 +1,9 @@
 team: KT
 
-<<<<<<< HEAD
 manager: ddd
-=======
-manager: zzzzzz
->>>>>>> conflict2
 
 members:
 - 고영표
 - 강백호
 - 황재균
 - 박경수
-
