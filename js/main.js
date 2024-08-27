@@ -62,8 +62,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // 페이지 로드 시 기존 품목들 설정
-    const cartItemsList = document.querySelectorAll('#cart_list_detail > li');
-    cartItemsList.forEach(item => setupCartItem(item));
+    const cartItemsddd = document.querySelectorAll('#cart_list_detail > li');
+    cartItemsddd.forEach(item => setupCartItem(item));
 
     // 모든 품목 제거 버튼 클릭 시
     document.getElementById('all_delete').addEventListener('click', function () {
