@@ -1,6 +1,10 @@
 team: KT
 
+<<<<<<< HEAD
 manager: ddd
+=======
+manager: zzzzzz
+>>>>>>> conflict2
 
 members:
 - 고영표
